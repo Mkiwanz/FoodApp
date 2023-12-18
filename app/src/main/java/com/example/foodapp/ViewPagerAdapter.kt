@@ -11,7 +11,9 @@ class ViewPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(activ
         return when (position) {
             0 -> RecipesFragment()
             1 -> MealPlannerFragment()
-            //... other fragments
+            2 -> BlogFragment()
+            3 -> ContactFragment()
+            4 -> AboutMeFragment()
             else -> AboutMeFragment()
         }
     }

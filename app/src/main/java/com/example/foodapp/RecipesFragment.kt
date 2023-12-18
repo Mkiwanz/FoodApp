@@ -28,9 +28,7 @@ class RecipesFragment : Fragment() {
         recyclerView.adapter = RecipesAdapter(recipesList)
 
         fab.setOnClickListener {
-            // Code to add a new recipe
         }
-
         return view
     }
 

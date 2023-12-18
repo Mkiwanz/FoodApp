@@ -25,13 +25,12 @@ class AboutMeFragment : Fragment() {
         loadDetails()
 
         fab.setOnClickListener {
-            // Code to add new details, possibly through a dialog or another activity
         }
 
         return view
     }
 
     private fun loadDetails() {
-        aboutMeText.text = "My name is Mohammad Kiwan";
+        aboutMeText.text = "My Name is Mohammad Kiwan";
     }
 }

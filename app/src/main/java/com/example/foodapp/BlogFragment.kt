@@ -28,7 +28,6 @@ class BlogFragment : Fragment() {
         recyclerView.adapter = BlogPostsAdapter(blogPostsList)
 
         fab.setOnClickListener {
-            // Code to add a new blog post
         }
 
         return view
