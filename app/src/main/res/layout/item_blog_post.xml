@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/blog_post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blog Post Title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blog_post_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blog post content..."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/blog_post_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/blog_post_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jan 1, 2023"
+        android:textSize="12sp" />
+
+</LinearLayout>
